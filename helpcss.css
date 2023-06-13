@@ -1,0 +1,382 @@
+
+@import url(https://font.googleapi.com/css?family=Montserrat: 400,700);
+body,html{
+	width: 100%;
+	margin :0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+#navb{
+	font-size: 15px;
+	border-radius: 10px;
+	border:0.5px solid rgba(0,0,0,0.3);
+	color: rgba(0,0,0,0.7);
+	padding: 3px;
+}
+a {
+	text-decoration: none;
+}
+.menu {
+	float: right;
+	text-align: right;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+}
+.header{
+	background:rgba(255,255,255,0.75);
+	width: 100%;
+	line-height: 50px;
+}
+#navb:hover{
+	color: white;
+	transition: 0.3s;
+	text-decoration: none;
+	border-radius: 10px;
+	border:0.5px solid rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.2);
+	padding: 3px;
+}
+
+.banner{
+	width: 100%;
+}
+.banniere4{
+	width: 101.5%;
+	right: 10px;
+	height: 100vh;
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(0,0,0,0.5)),url(img/formation.jpeg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.banniere_text4{
+	color: #f2f2f2;
+	font-size: 15px;
+	position: absolute;
+	text-align: center;
+	left: 35%;
+	top: 300px;
+}
+
+
+.banniere{
+	width: 101.5%;
+	right: 10px;
+	height: 100vh;
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(0,0,0,0.5)),url(img/index.jpeg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.banniere_text{
+	color: #f2f2f2;
+	font-size: 15px;
+	position: absolute;
+	text-align: center;
+	left: 10%;
+	top: 300px;
+}
+
+h1{
+	font-family: 50px;
+}
+hr{
+	color: rgba(0,0,0,0.3);
+	width: 50%;
+	height: 15px;
+}
+
+.button1{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	border:0.5px solid rgba(0,0,0,0.3);
+	background: transparent;
+	color:#fff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.button1 a{
+	text-decoration: none;
+	color: white;
+}
+
+.button1 a:hover{
+	text-decoration: none;
+	color: white;
+}
+.button1:hover{
+	background: rgba(0,0,0,0.3);
+	transition: 0.7s;
+}
+.presentation{
+	background: linear-gradient(to top,#f2f2f2,#fff);
+	width: 100%;
+}
+
+.presentation1 img{
+	width: 100%;
+	height: 100vh;
+	margin: 10px;
+
+}
+
+.presentation2 img{
+	width: 300px;
+	margin: 10px;
+}
+.presentation2 h1{
+	color: rgba(91,155,213,0.70);
+}
+.presentation3{
+	padding: 0px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 12px;
+	margin-left: 25%;
+	background: rgba(0,0,0,0.3);
+	width: 50%;
+}
+.presentation4{
+	border: 1px solid skyblue;
+	border-radius: 12px;
+	height: 65vh;
+	width: 35%;
+	padding: 20px;
+}
+.presentation4 input{
+ border: none;
+ margin-bottom: 40px;
+ border-radius: 0px;
+ border-bottom:1px solid skyblue;
+ box-shadow: none;
+}
+.presentation4 input: hover{
+	border-radius: 5px;
+	border:1px solid skyblue;
+	outline: none;
+	box-shadow:5px 5px 5px 5px skyblue;
+	transition: 0.3;
+}
+
+.btnp button{
+	margin: 40px;
+   border:1px solid skyblue;
+}
+.btnp button:hover{
+	margin: 40px;
+	background: skyblue;
+    border:1px solid skyblue;
+    transition: 0.3;
+}
+textarea{
+	display: inline-flex;
+	border:1px solid skyblue;
+	border-top:1px solid skyblue;
+	bottom: 20px;
+	margin: 40px;
+	width: 100%;
+	height: 25vh;
+}
+textarea:hover{
+	border-radius: 5px;
+	border:1px solid skyblue;
+	outline: none;
+	box-shadow:5px 5px 5px 5px skyblue;
+	transition: 0.3;
+}
+
+.form-group{
+	margin-bottom: 10px;
+}
+.footer{
+	width: 100%;
+	background: #fff;
+}
+.reseaux a{
+	display: inline-block;
+}
+.reseaux img{
+	width: 25px;
+	height: 25px;
+}
+#reseau1{
+	margin: 25px;
+	display: inline-flex;
+}
+.copy img{
+	width: 15px;
+	height:15px;
+}
+
+mark{
+	color: red;
+}
+.copy{
+	margin: 10px;
+	padding: 10px;
+}
+#reseau2 a{
+	margin: 10px;
+	text-decoration: none;
+	color: rgba(0,0,0,0.8);
+}
+
+.banniere1{
+	width: 101.5%;
+	right: 10px;
+	height: 100vh;
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(0,0,0,0.5)),url(img/nosformation.jpeg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.banniere_text1{
+	color: #f2f2f2;
+	font-size: 15px;
+	position: absolute;
+	text-align: center;
+	left: 15%;
+	top: 300px;
+}
+#t1{
+	width: 100%;
+	padding-bottom: 50px;
+	font-size: 50px;
+}
+#diplome{
+	font-size: 20px;
+	border: solid red;
+	border-radius: 10px;
+	color: whitesmoke;
+	background: red;
+}
+#pre1{
+	border-radius: none;
+	border-top:none;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 20px;
+	top: 100px;
+}
+#diplome1{
+	font-size: 20px;
+	border: solid red;
+	border-radius: 10px;
+	color: whitesmoke;
+	background: red;
+}
+#diplome2{
+	font-size: 20px;
+	border: solid red;
+	border-radius: 10px;
+	color: whitesmoke;
+	background: red;
+}
+#diplome3{
+	font-size: 20px;
+	border: solid red;
+	border-radius: 10px;
+	color: whitesmoke;
+	background: red;
+}
+#diplome4{
+	font-size: 20px;
+	border: solid red;
+	border-radius: 10px;
+	color: whitesmoke;
+	background: red;
+}
+#diplome5{
+	font-size: 20px;
+	border: solid red;
+	border-radius: 10px;
+	color: whitesmoke;
+	background: red;
+}
+
+.presentation2 h1:hover{
+	color: rgba(91,155,255,1);
+}
+
+.presentation2 a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+	
+.sexe input{
+	padding: 3px;
+	height: 12px;
+	width: 20px;
+	border: none;
+}
+.sexe{
+	padding: 5px;
+	width: 100%;
+	height: 4vh;
+	border: none;
+	display: inline-block;
+}
+.couleur{
+	width: 100%;
+	color: black;
+}
+.form-control{
+	border-radius: 5px;
+	left: 20px;
+	padding: 5px;
+	width: 98%;
+	height: 5vh;
+	border: 1px solid rgba(0,0,0,0.3) ;
+}
+.marginform{
+	width: 100%;
+	margin: 25px;
+}
+.heading{
+	background:transparent;
+	border-radius: 12px;
+	border: 1px solid rgba(0,0,0,0.3);
+	color: whitesmoke;
+	padding: 0px;
+	width: 100%;
+}
+.presentation3:hover{
+	background:rgba(51,153,255,0.5);
+	transition: .3s;
+}
+.formcontact{
+
+	width: 100%;
+	right: 10px;
+	height: 100vh;
+	background: rgba(248,249,250,1);
+}
+.btnc{
+	width: 35%;
+	margin-top: 20px;
+	margin-left: 32.5%;
+}
+font{
+	color: skyblue;
+}
+#fdc{
+	border: 1px solid skyblue;
+	border-radius: 12px;
+	width: 35%;
+	font-size: 30px;
+	color: rgba(0,0,0,0.3);
+}
+
+select{
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 12px;
+
+}
